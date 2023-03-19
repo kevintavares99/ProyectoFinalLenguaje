@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+
+.navegacion{
+    width: 1000px;
+    margin: 30px auto;
+    background: black;
+}
+
+
+.navegacion ul{
+    list-style: none;
+}
+
+.menu > li {
+    position: relative;
+    display: inline-block;
+}
+
+.menu > li  > a{
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+.submenu {
+    position: absolute;
+    background: black;
+    display: none;
+
+}
+
+.submenu li a{
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration:none;
+}
+
+
+.menu li:hover .submenu{
+    display: block;
+}
+
